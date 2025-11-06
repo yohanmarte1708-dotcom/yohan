@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZARA</title>
+</head>
+<body>
+    <header>
+        <h1>ZARA</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+
+    <section id="inicio" class="hero">
+        <h1>Nueva Colección</h1>
+        <img src="hero.webp" alt="Colección Zara">
+        <p>Descubre las nuevas tendencias en ropa.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Productos</h2>
+        
+        <div class="products">
+    
+            <div class="product">
+        <img src="prf1.jpg" alt="Producto 1">
+        <h3>ZARA SEOUL 532-8 SINSA DONG GANGNAM-GU EDT-UNA FRAGANCIA MODERNA, DEPORTIVA Y BRILLANTE</h3>
+        <p>$149.99</p>
+    </div>
+    
+    <div class="product">
+        <img src="perf3.jpg" alt="Producto 2">
+        <h3>Zara Bogoss Eau De Parfum Colonia de Piel Vibrante EDP para Hombre</h3>
+        <p>$259.99</p>
+    </div>
+
+    <div class="product">
+        <img src="perf2.avif" alt="Producto 3">
+        <h3>Zara Colección de tabaco para hombre</h3>
+        <p>$269.99</p>
+    </div>
+
+    <div class="product">
+        <img src="perf5.jpg" alt="Producto 4">
+        <h3>Zara 2X Night Pour Homme - Noche III Eau De Parfum 3.4 fl. Onz</h3>
+        <p>$250.99</p>
+    </div>
+
+    </div>
+    </section>
+
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Escríbenos para más información:</p>
+    <form>
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre"><br><br>
+        <label>Correo:</label><br>
+        <input type="email" name="correo"><br><br>
+        <label>Mensaje:</label><br>
+        <textarea name="mensaje" rows="4" cols="30"></textarea><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+    </section>
+
+    <footer>
+        <p>© 2025 ZARA - creador Yohan Marte</p>
+    </footer>
+
+    <style> 
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #ffffff;
+      color: #000;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .hero {
+      text-align: center;
+      background: #eaeaea;
+    }
+    .hero img {
+      width: 500px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+   
+    .contacto {
+  background: #eee;    
+  padding: 10px;         
+  text-align: center;     
+  font-family: Arial, sans-serif;
+}
+
+.contacto form {
+  width: 300px;      
+  margin: 0 auto;        
+  text-align: left;       
+}
+
+.contacto input,
+.contacto textarea {
+  width: 100%;            
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc; 
+}
+
+.contacto button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: #333;     
+  color: #fff;            
+  border: none;
+  cursor: pointer;
+}
+
+
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+</style>
+
+</body>
+</html>
